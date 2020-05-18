@@ -5,9 +5,7 @@ Servomotor control using a microcontroller
 * Software: C programming
 ```
 
-## _1. System Overview_
-
-### (1) Diagram
+## _1. System Diagram_
 (_PIC24HJ128GP502 16bit Microcontroller [Datasheet](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
 
 User can interact with the system through `Keypad` (input), `LCD` and `Teraterm` (output).
@@ -16,7 +14,7 @@ User can interact with the system through `Keypad` (input), `LCD` and `Teraterm`
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "Diagram")
 
-### (2) Servomotor
+## _2. Servomotor_
 (_For more information about servos: [servocity.com](https://www.servocity.com/servos)_)
 
 The shaft of the servo can be positioned to specific angular positions by sending a coded signal. As long as the coded signal exists on the input line, the servo will maintain the angular position of the shaft. If the coded signal changes, then the angular position of the shaft changes. The maximun pulse width is 12% of period and the minimun pulse width is 3% of period.
@@ -24,14 +22,14 @@ The shaft of the servo can be positioned to specific angular positions by sendin
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-servo.JPG "Servo")
 
 
-### (3) System Operation
+## _3. System Operation_
 **`update_state`** function in **`project_servo.c`** determines microcontroller operation for servo control.
 
 FSM(Finite State Machine) is used to define the operation.
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-update-state.JPG "update_state")
 
-## _2. Descriptions of the System_
+## _4. Descriptions of the Operation_
 ### (1) System Options
 A LCD shows options to users so that users can interact with the system. There are three options; **`SETUP`**, **`RUN`**, and **`DOWNLOAD`**. Users can select an option using a keypad.
 
