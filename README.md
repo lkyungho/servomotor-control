@@ -55,10 +55,11 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 >
 > Save OC1RS value to `u16_cw` or `u16_ccw` in micro-second. 
 
-
 ### (3) RUN option
+CW limit and CCW limit are set in the previous step, and users can move servo using the pot. As volage from the pot changes, ADC value changes. The microcontroller changes OC1RS value using the ADC value to move the servo.
 
 ### (4) DOWNLOAD option
+Download timestamped position data to the remote terminal (Teraterm).
 
 ## _5. Result_
 (Video link will be added)
