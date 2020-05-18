@@ -47,7 +47,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 >
 > Adjust the potentio-resister (pot) to change pulse width.
 > 
-> - temp = (Ouptput of pot / Vcc) * 4096
+> - temp = (Output of pot / Vcc) * 4096
 >
 > Set max ticks in OC1RS register of Output Compare module.
 >
