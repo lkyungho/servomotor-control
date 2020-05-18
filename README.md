@@ -49,7 +49,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 > 
 > - temp = (Output of pot / Vcc) * 4096
 >
-> Set max ticks in OC1RS register of Output Compare module.
+> Set the value of OC1RS register in Output Compare module.
 >
 > - OCxRS = [(temp / 4096) * (maxPWTicks - minPWTicks)] + minPWTicks
 >
