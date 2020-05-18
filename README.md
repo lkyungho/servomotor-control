@@ -6,9 +6,10 @@ Servomotor control using a microcontroller
 ```
 
 ## _1. System Overview_
-User can interact with the system through keypad (input), LCD and teraterm (output)
 
 ### (1) Diagram
+User can interact with the system through keypad (input), LCD and teraterm (output)
+
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "Diagram")
 
 
