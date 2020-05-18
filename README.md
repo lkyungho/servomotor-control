@@ -5,6 +5,8 @@ Servomotor control using a microcontroller
 * Software: C programming
 ```
 
+**(_YouTube link: will be added_)**
+
 ## _1. System Diagram_
 (_Datasheet: [PIC24HJ128GP502](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
 
@@ -60,6 +62,3 @@ CW limit and CCW limit are set in the previous step, and users can move servo us
 
 ### (4) DOWNLOAD option
 Download timestamped position data to the remote terminal (Teraterm).
-
-## _5. Result_
-(Video link will be added)
