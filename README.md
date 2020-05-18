@@ -8,7 +8,7 @@ Servomotor control using a microcontroller
 ## _1. System Diagram_
 (_Datasheet: [PIC24HJ128GP502](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
 
-User can interact with the system through `Keypad` (input), `LCD` and `Teraterm` (output).
+Users can interact with the system through `Keypad` (input), `LCD` and `Teraterm` (output).
 
 `Output Compare` module generates PWM(Pulse Width Modulation) signal to move a servo.
 
