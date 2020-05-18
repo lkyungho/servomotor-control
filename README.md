@@ -15,9 +15,9 @@ Users can interact with the system through `Keypad` (input), `LCD` and `Teraterm
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "Diagram")
 
 ## _2. Servomotor_
-(_For more information about servos: [servocity.com](https://www.servocity.com/servos)_)
-
 The shaft of the servo can be positioned to specific angular positions by sending a coded signal. As long as the coded signal exists on the input line, the servo will maintain the angular position of the shaft. If the coded signal changes, then the angular position of the shaft changes. The maximun pulse width is 12% of period and the minimun pulse width is 3% of period.
+
+(_For more information about servos: [servocity.com](https://www.servocity.com/servos)_)
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-servo.JPG "Servo")
 
