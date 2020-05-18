@@ -38,7 +38,7 @@ A LCD shows options to users so that users can interact with the system. There a
 ### (2) SETUP option
 This option allows users to setup the range of servo angles. Users can limit the range of clockwise (CW) direction and the range of counter clockwise (CCW) direction. (The maximum value of CW value is 2.4 ms and the minimun value of CCW is 0.6 ms).
 
-Voltage signal from the potentio-resistor is converted to digital signal by ADC module. The digital signal creates PWM signal using Output Compare module and Timer module. The servo moves to the corresponded position with the PWM signal and The system saves the digital value.
+Voltage signal from the potentio-resistor is converted to digital signal by ADC module. The digital signal creates PWM signal using Output Compare module and Timer module. The servo moves to the corresponded position with the PWM signal.
 
 > [Register PWM period]
 >
