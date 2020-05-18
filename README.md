@@ -12,7 +12,7 @@ FSM(Finite State Machine) is used to determine system operation.
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "System Diagram")
 
-## _2. Description of the System_
+## _2. Descriptions of the System_
 ### (1) Option State
 This state shows menus to users so that users can select a option they want. There are three options; **`SETUP`**, **`RUN`**, and **`DOWNLOAD`**.
 
