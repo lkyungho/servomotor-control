@@ -6,7 +6,7 @@ Servomotor control using a microcontroller
 ```
 
 ## _1. System Diagram_
-(_PIC24HJ128GP502 16bit Microcontroller [Datasheet](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
+(_Datasheet: [PIC24HJ128GP502](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
 
 User can interact with the system through `Keypad` (input), `LCD` and `Teraterm` (output).
 
