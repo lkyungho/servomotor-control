@@ -8,14 +8,19 @@ Servomotor control using a microcontroller
 ## _1. System Overview_
 User can interact with the system through keypad (input), LCD and teraterm (output)
 
+### (1) Diagram
+![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "Diagram")
+
+
+### (2) System Operation
 **`update_state`** function in **`project_servo.c`** is the main function for servo control.
 
 FSM(Finite State Machine) is used to determine system operation.
 
-![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "System Diagram")
+![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-update-state.JPG "update_state")
 
 ## _2. Descriptions of the System_
 ### (1) System Options
-A LCD shows options to users so that users can interact with the system. There are three options; **`SETUP`**, **`RUN`**, and **`DOWNLOAD`**.
+A LCD shows options to users so that users can interact with the system. There are three options; **`SETUP`**, **`RUN`**, and **`DOWNLOAD`**. Users can select an option using a keypad.
 
-### (2) Setup State
+### (2) SETUP option
