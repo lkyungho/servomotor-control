@@ -8,7 +8,9 @@ Servomotor control using a microcontroller
 ## _1. System Overview_
 
 ### (1) Diagram
-User can interact with the system through keypad (input), LCD and teraterm (output)
+User can interact with the system through `Keypad` (input), `LCD` and `Teraterm` (output).
+
+`Output Compare` module generates PWM(Pulse Width Modulation) signal to move a servo.
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-diagram.JPG "Diagram")
 
@@ -23,5 +25,6 @@ FSM(Finite State Machine) is used to determine system operation.
 ## _2. Descriptions of the System_
 ### (1) System Options
 A LCD shows options to users so that users can interact with the system. There are three options; **`SETUP`**, **`RUN`**, and **`DOWNLOAD`**. Users can select an option using a keypad.
+### (2) Servomotor
 
-### (2) SETUP option
+### (3) SETUP option
