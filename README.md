@@ -41,3 +41,6 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 ### (3) RUN option
 
 ### (4) DOWNLOAD option
+
+## _5. Result_
+(Video link will be added)
