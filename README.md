@@ -5,7 +5,9 @@ Servomotor control using a microcontroller
 * Software: C programming
 ```
 
-## _1. System Diagram_
+## _1. System Overview_
+User can interact with the system through keypad (input), LCD and teramterm (output)
+
 **`update_state`** function in **`project_servo.c`** is the main function for servo control.
 
 FSM(Finite State Machine) is used to determine system operation.
