@@ -16,9 +16,9 @@ User can interact with the system through `Keypad` (input), `LCD` and `Teraterm`
 
 
 ### (2) System Operation
-**`update_state`** function in **`project_servo.c`** is the main function for servo control.
+**`update_state`** function in **`project_servo.c`** determines microcontroller operation for servo control.
 
-FSM(Finite State Machine) is used to determine system operation.
+FSM(Finite State Machine) is used to define the operation.
 
 ![alt text](https://github.com/lkyungho/Images/blob/master/servomotor-control-update-state.JPG "update_state")
 
