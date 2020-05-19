@@ -5,7 +5,7 @@ Servomotor control using a microcontroller
 * Software: C programming
 ```
 
-**(_YouTube link: will be added_)**
+**(_YouTube link: [Servomotor Control](https://youtu.be/9fudXO3PrHw)_)**
 
 ## _1. System Diagram_
 (_Datasheet: [PIC24HJ128GP502](http://ww1.microchip.com/downloads/en/devicedoc/70293g.pdf)_)
@@ -61,4 +61,4 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 CW limit and CCW limit are set in the previous step, and users can move servo using the pot. As volage from the pot changes, ADC value changes. The microcontroller changes OC1RS value using the ADC value to move the servo.
 
 ### (4) DOWNLOAD option
-Download timestamped position data to the remote terminal (Teraterm).
+Download timestamped position data to the remote terminal (Teraterm) with UART bus protocol.
