@@ -43,7 +43,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 > [Register PWM period]
 >
 > Save PWM ticks in `PR2`(Period Register) in Timer module.
-> - `PR2` = [System frequency * PWM_period(s)] / Prescaler
+> - `PR2` = [System frequency * PWM_period(s)] / Prescaler - 1
  
 > [Set CW and CCW limit]
 >
@@ -51,11 +51,11 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 > 
 > - `u32_temp` = (Output of the pot / Vcc) * 4096
 >
-> Set the value of `OC1RS` register in Output Compare module. `OC1RS` register value determines pulse width.
+> Set the value of `OC1RS` register in Output Compare module. `OC1RS` value determines pulse width.
 >
 > - `OC1RS` = [(`u32_temp` / 4096) * (maxPWTicks - minPWTicks)] + minPWTicks
 >
-> Save OC1RS value to `u16_cw` or `u16_ccw` in micro-second. 
+> Save `OC1RS` value to `u16_cw` or `u16_ccw` in micro-second. 
 
 ### (3) RUN option
 CW limit and CCW limit are set in the previous step, and users can move servo using the pot. As volage from the pot changes, ADC value changes. The microcontroller changes OC1RS value using the ADC value to move the servo.
