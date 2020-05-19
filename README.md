@@ -42,7 +42,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 
 > [Register PWM period]
 >
-> Save PWM ticks in PR2 in Timer module.
+> Save PWM ticks in `PR2`(Period Register) in Timer module.
 > - `PR2` = [System frequency * PWM_period(s)] / Prescaler
  
 > [Set CW and CCW limit]
@@ -51,7 +51,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
 > 
 > - `u32_temp` = (Output of the pot / Vcc) * 4096
 >
-> Set the value of OC1RS register in Output Compare module. OC1RS register value determines pulse width.
+> Set the value of `OC1RS` register in Output Compare module. `OC1RS` register value determines pulse width.
 >
 > - `OC1RS` = [(`u32_temp` / 4096) * (maxPWTicks - minPWTicks)] + minPWTicks
 >
