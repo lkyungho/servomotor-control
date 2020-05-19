@@ -47,7 +47,7 @@ Voltage signal from the potentio-resistor is converted to digital signal by ADC 
  
 > [Set CW and CCW limit]
 >
-> Adjust the potentio-resister (pot) and save ADC value.
+> Adjust the potentio-resister (pot) and save 12-bit ADC value.
 > 
 > - `u32_temp` = (Output of the pot / Vcc) * 4096
 >
